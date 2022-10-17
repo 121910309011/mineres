@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <!-- Header -->
+  <section id="header">
+        <div class="header container">
+          <div class="nav-bar">
+            <div class="brand">
+              <a href="#hero">
+                <h1>MINE<span>res</span></h1>
+              </a>
+            </div>
+            <div class="nav-list">
+              <div class="hamburger">
+                <div class="bar"></div>
+              </div>
+              <ul>
+                <li><a href="Project.html" data-after="Home">Home</a></li>
+                <li><a href="shop.html" data-after="Projects">Products</a></li>
+                <li><a href="contact.html" data-after="Contact">Contact info</a></li>
+                <li><a href="cart.html" data-after="Contact"><img src="https://img.icons8.com/glyph-neue/64/000000/shopping-cart.png" width="20" height="20"/></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="hero">
+          <div class="hero container">
+            <div>
+              <h1>Please <span></span></h1>
+              <h1>Make <span></span></h1>
+              <h1>Payments <span></span></h1>
+            </div>
+          </div>
+      </section>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><img src="https://img.icons8.com/ios-glyphs/90/000000/delete-forever.png" width="20" height="25"/> </a> </td>
+                    <td><img src="./Images/Coal-use-for-all-for-now-scaled.jpeg"></td>
+                    <td>Coal</td>
+                    <td>Rs.20 /kg</td>
+                    <td><input type="number" value="1"></td>
+                </tr>
+                <tr>
+                    <td><a href="#"><img src="https://img.icons8.com/ios-glyphs/90/000000/delete-forever.png" width="20" height="25"/> </a> </td>
+                    <td><img src="./Images/Platinum_crystals.jpg"></td>
+                    <td>platinum</td>
+                    <td>Rs.2,500/gm</td>
+                    <td><input type="number" value="1"></td>
+                </tr>
+                <tr>
+                    <td><a href="#"><img src="https://img.icons8.com/ios-glyphs/90/000000/delete-forever.png" width="20" height="25"/> </a> </td>
+                    <td><img src="./Images/slate.jpg"></td>
+                    <td>Slate</td>
+                    <td>Rs.64/Kg</td>
+                    <td><input type="number" value="1"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3> Apply coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                   <td>Cart Subtotal</td>
+                   <td>Rs.2,218</td> 
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>Rs.2,218</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to Checkout</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mineres</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+      <!-- Header -->
+    <section id="header">
+          <div class="header container">
+            <div class="nav-bar">
+              <div class="brand">
+                <a href="#hero">
+                  <h1>MINE<span>res</span></h1>
+                </a>
+              </div>
+              <div class="nav-list">
+                <div class="hamburger">
+                  <div class="bar"></div>
+                </div>
+                <ul>
+                  <li><a href="Project.html" data-after="Home">Home</a></li>
+                  <li><a href="shop.html" data-after="Projects">Products</a></li>
+                  <li><a href="#contact" data-after="Contact">Contact info</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+                <img src="./Images/p1.jpg" width="100%" id="MainImg" alt="">
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="./Images/p1.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./Images/p3.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./Images/p4.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./Images/Platinum_crystals.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="single-pro-details">
+                <h6>platinum</h6>
+                <h4>Best Quality</h4>
+                <h2>Rs.350/kg</h2>
+               
+                <input type="number" value="100">
+                <button class="normal" style="vertical-align:middle"><span>Add To Cart</span></button>
+                <h4>Product Details</h4>
+                <span><h2>Platinum is an element with the atomic number 78 and an atomic mass of 195 in the periodic table. It is an extremely rare element found in the crust of the earth. The word Platinum is derived from Platina (Spanish word meaning 'little silver'), because of its grey-white silvery colour.</h2></span>
+            </div>
+        </section>
+        <script>
+            var MainImg=document.getElementById("MainImg");
+            var smallimg=document.getElementsByClassName("small-img");
+    
+            smallimg[0].onclick=function(){
+                MainImg.src=smallimg[0].src;
+            }
+            smallimg[1].onclick=function(){
+                MainImg.src=smallimg[1].src;
+            }
+            smallimg[2].onclick=function(){
+                MainImg.src=smallimg[2].src;
+            }
+            smallimg[3].onclick=function(){
+                MainImg.src=smallimg[3].src;
+            }
+        </script>
+    
+</body>  
+</html>   
