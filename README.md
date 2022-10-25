@@ -14,3 +14,9 @@ add this files into it
     static (folder),
     urls.py,
     Templates (folder),
+
+keep this folder in Project:!
+[Uploading Screenshot 2022-10-25 at 7.56.39 PM.png…]()
+
+
+https://drive.google.com/drive/folders/133roXsatcbfsQXWVc4toi-rMUJh807rf?usp=sharing
